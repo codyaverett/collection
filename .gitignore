@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+
+# microbundle files
+.rts2_*
+
+#build output
+lib
