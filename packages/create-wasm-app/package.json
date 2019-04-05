@@ -1,5 +1,5 @@
 {
-  "name": "create-wasm-app",
+  "name": "@caavere/create-wasm-app",
   "version": "0.1.1",
   "description": "create an app to consume rust-generated wasm packages",
   "main": "index.js",
@@ -32,5 +32,6 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
-  }
+  },
+  "gitHead": "ffe5a2fc13abf021ed7b79ee836458d84f0cfff8"
 }
