@@ -4,28 +4,29 @@
   "version": "0.0.2",
   "description": "A react lib starter",
   "main": "lib/index.js",
+  "bin": {
+    "create-parcel-app.js": "./bin/create-parcel-app.js"
+  },
   "scripts": {
-    "build": "microbundle build",
+    "build": "parcel build public/index.html",
     "watch": "microbundle watch",
     "test": "jest test"
   },
   "author": "Cody Averett",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react": "16.8.5",
+    "react-dom": "16.8.5"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/react": "^16.8.10",
-    "@types/react-dom": "^16.8.3",
-    "jest": "^24.5.0",
-    "lerna": "^3.13.1",
-    "lerna-wizard": "^1.0.9",
-    "microbundle": "^0.11.0",
-    "prettier": "^1.16.4",
-    "ts-jest": "^24.0.0",
-    "typescript": "^3.3.4000"
+    "@types/jest": "24.0.11",
+    "@types/react": "16.8.10",
+    "@types/react-dom": "16.8.3",
+    "jest": "24.5.0",
+    "lerna": "3.13.1",
+    "prettier": "1.16.4",
+    "ts-jest": "24.0.0",
+    "typescript": "3.3.4000"
   },
   "gitHead": "ffe5a2fc13abf021ed7b79ee836458d84f0cfff8"
 }
