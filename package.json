@@ -1,11 +1,9 @@
 {
-  "name": "meson",
+  "name": "@caavere/collection",
   "version": "0.0.1",
-  "description": "A collection",
+  "description": "A collection for Code-E",
   "scripts": {
-    "build": "microbundle build",
-    "watch": "microbundle watch",
-    "test": "jest test"
+    "postinstall": "lerna bootstrap"
   },
   "author": "Cody Averett",
   "license": "MIT",
@@ -16,9 +14,21 @@
     "@types/react-dom": "^16.8.3",
     "jest": "^24.5.0",
     "lerna": "^3.13.1",
+    "meta-npm": "^1.0.2",
     "microbundle": "^0.11.0",
     "prettier": "^1.16.4",
     "ts-jest": "^24.0.0",
     "typescript": "^3.3.4000"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   }
 }

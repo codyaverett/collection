@@ -1,16 +1,6 @@
-# Meson
+# Collection
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
-
-```
-Pronunciation
-IPA(key): /ˈmiː.zɒn/, /ˈmiː.sɒn/
-Noun
-meson (plural mesons)
-
-(obsolete) A member of a group of subatomic particles having a mass intermediate between electrons and protons. (The most easily detected mesons fit this definition.)
-(now specifically, physics) An elementary particle that is composed of a quark and an antiquark, such as a kaon or pion. (Mesons composed of rarer quarks are much heavier.)
-```
 
 ## Looking for a purpose
 
