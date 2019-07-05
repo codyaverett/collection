@@ -11,6 +11,6 @@
     }
   },
 
-  "packages": ["packages/*"],
+  "packages": ["@caavere/*"],/*"],
   "version": "independent"
 }
